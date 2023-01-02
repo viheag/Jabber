@@ -1,3 +1,2 @@
-export { default as Sidebar } from "./sidebar";
-export { default as SidebarItems } from "./sidebar/SidebarItems";  
-export { SIDEBAR_DATA as dummyData } from "./sidebar/Data";
+export { default as Navbar } from "./navbar/Navbar";  
+export { default as Content } from "./content/Content"; 
