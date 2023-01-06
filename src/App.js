@@ -1,12 +1,11 @@
-import {  Navbar } from "./layout"; 
-import { LoginPage } from "./views";
+import { LoginPage, Home} from "./views";
 import { BrowserRouter, Navigate, Routes, Route } from "react-router-dom";
 import "./App.css";
 import { useMemo } from "react";
 import { useSelector } from "react-redux";
 import { CssBaseline, ThemeProvider } from "@mui/material";
 import { createTheme } from "@mui/material/styles";
-import { themeSettings } from "./theme/theme";
+import { themeSettings } from "./theme/theme"; 
 
 function App() {
   const mode = useSelector((state) => state.mode);
@@ -22,7 +21,7 @@ function App() {
             <Route path="/" element={<LoginPage />} />
             <Route
               path="/home"
-              element={isAuth ? <Navbar /> : <Navigate to="/" />}
+              element={isAuth ? <Home /> : <Navigate to="/" />}
             /> 
           </Routes>
       </ThemeProvider>
