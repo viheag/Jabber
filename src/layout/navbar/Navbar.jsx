@@ -11,8 +11,7 @@ import {
   useMediaQuery,
 } from "@mui/material";
 import {
-  Search,
-  Message,
+  Search, 
   DarkMode,
   LightMode,
   Notifications,
@@ -88,8 +87,7 @@ const Navbar = () => {
             ) : (
               <LightMode sx={{ color: dark, fontSize: "25px" }} />
             )}
-          </IconButton>
-          <Message sx={{ fontSize: "25px" }} />
+          </IconButton> 
           <Notifications sx={{ fontSize: "25px" }} />
           {isDesktopView && (
           <Box
@@ -109,7 +107,7 @@ const Navbar = () => {
             </IconButton>
           </Box>
         )}
-          <FormControl variant="standard" size="small" value="perro">
+          <FormControl variant="standard" size="small">
             <Select 
               sx={{
                 backgroundColor: neutralLight,
@@ -184,8 +182,7 @@ const Navbar = () => {
               ) : (
                 <LightMode sx={{ color: dark, fontSize: "25px" }} />
               )}
-            </IconButton>
-            <Message sx={{ fontSize: "25px" }} />
+            </IconButton> 
             <Notifications sx={{ fontSize: "25px" }} />
             <Help sx={{ fontSize: "25px" }} />
             <FormControl variant="standard" value={fullName}>

@@ -8,3 +8,14 @@ body,
   width: 100%;
   font-family: 'Poppins', sans-serif;
 }
+.multiLine{
+  width: "10rem";
+}
+
+.multiLineEllipsis {
+  overflow: "hidden";
+  text-overflow: "ellipsis";
+  display: "-webkit-box";
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: "vertical";
+}

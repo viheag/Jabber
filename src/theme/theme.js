@@ -48,6 +48,8 @@ export const colorTokens = {
                 dark: colorTokens.primary[100],
                 main: colorTokens.primary[300],
                 light: colorTokens.primary[100],
+                superlight: colorTokens.primary[50]
+
               },
               neutral: {
                 dark: colorTokens.grey[100],
@@ -55,6 +57,8 @@ export const colorTokens = {
                 mediumMain: colorTokens.grey[300],
                 medium: colorTokens.grey[400],
                 light: colorTokens.grey[700],
+                superlight: colorTokens.grey[800]
+
               },
               background: {
                 default: colorTokens.grey[800],
@@ -67,6 +71,8 @@ export const colorTokens = {
                 dark: colorTokens.primary[700],
                 main: colorTokens.primary[500],
                 light: colorTokens.primary[100],
+                superlight: colorTokens.primary[50]
+
               },
               neutral: {
                 dark: colorTokens.grey[700],
@@ -74,6 +80,7 @@ export const colorTokens = {
                 mediumMain: colorTokens.grey[400],
                 medium: colorTokens.grey[300],
                 light: colorTokens.grey[100],
+                superlight: colorTokens.grey[10]
               },
               background: {
                 default: colorTokens.grey[10],
